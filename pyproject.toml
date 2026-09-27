@@ -18,8 +18,5 @@ build-backend = "uv_build"
 
 [tool.uv.workspace]
 members = [
-    "dbt-snowflake",
+    "dbt_snowflake_project",
 ]
-
-[tool.uv.sources]
-dbt-snowflake = { workspace = true }
