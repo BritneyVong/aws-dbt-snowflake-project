@@ -26,3 +26,7 @@ Raw CSV files are stored in AWS S3, loaded into Snowflake, then progressively cl
 - Several small but stubborn syntax issues in dbt's Jinja templating (wrong brackets, missing parentheses, a stray semicolon) that don't show up until you actually try to compile the model
 - Getting dbt to authenticate against Snowflake at all: I first tried SSO, hit a wall, and ended up setting a dedicated password via SQL instead
 - Untangling a Python project structure (via uv) after some early setup mistakes, including workspace and package naming collisions
+
+## Credits
+Built while following Airbnb End-To-End Data Engineering Project (For Beginners) | DBT + Snowflake + AWS by Ansh Lamba, with my own debugging and fixes along the way.
+Link: https://www.youtube.com/watch?v=3SZSDKEZqoA
