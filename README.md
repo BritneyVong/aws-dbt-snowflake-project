@@ -10,7 +10,7 @@ Raw CSV files are stored in AWS S3, loaded into Snowflake, then progressively cl
 - **Silver**: cleaned up, standardized, deduplicated
 - **Gold**: the finished product: a wide combined table (`obt`) and a proper `fact` table ready for reporting, plus snapshot tables that track how listings and hosts change over time
 
-The full transformation pipeline and model dependencies can be viewed in the [lineage graph](./lineage-graph.png)
+The full transformation pipeline and model dependencies can be viewed in the [lineage graph](./lineage-graph.png).
 
 ## Built with
 
